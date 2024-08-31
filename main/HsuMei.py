@@ -435,7 +435,7 @@ frame_right.grid_columnconfigure(0, weight=1)
 label_logo = customtkinter.CTkLabel(master=frame_right,
                                     text='Hsu Mei',
                                     height=50,
-                                    text_font=('Comic Sans MS', 26))
+                                    font=('Comic Sans MS', 26))
 label_logo.grid(row=0, column=0, sticky=NSEW, padx=10, pady=20)
 
 #-frame_right-up---------------------------------------------------------------
