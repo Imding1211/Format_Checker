@@ -67,40 +67,15 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    pip install -r requirements.txt
    ```
-
+   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
-* When running it for the first time, you need to create the ChromaDB database first.
-   ```sh
-   python main.py populate
-   ```
-
-* After creating the database, you can start the program using the following command.
+* Start the program using the following command.
    ```sh
    python main.py run
    ```
-
-* You can use the following example questions to test if the program is running successfully.
-   ```
-   What hardware setup was used for training this models?
-   ```
-   
-* When the following message appears, it means the program is running successfully.
-   ```
-   1 machine with 8 NVIDIA P100 GPUs.
-   ```
-   
-* You can place your PDF files into the "data" folder, and run the following command to populate data to the database.
-   ```sh
-   python main.py populate
-   ```
-
-* Or you can rebuild the database using the following command.
-   ```sh
-   python main.py populate --reset
-  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
