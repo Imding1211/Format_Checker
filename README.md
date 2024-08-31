@@ -35,6 +35,7 @@ This project is designed to streamline the process of handling personnel data, s
 
 * openpyxl
 * Tkinter
+* CustomTkinter
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
